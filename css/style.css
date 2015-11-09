@@ -16,7 +16,8 @@ body {
 
 #team-members .member img {
   width: 200px;
-  height: 200px; }
+  height: 200px;
+  border-radius: 9px; }
 
 #team-members .member div.name {
   text-align: center;
@@ -26,6 +27,10 @@ body {
   border-color: red;
   background-color: #FBB;
   border-radius: 8px; }
+
+.member {
+  border-radius: 9px;
+  box-shadow: 2px 2px 4px #53F; }
 
 body h1 {
   color: #53F;
