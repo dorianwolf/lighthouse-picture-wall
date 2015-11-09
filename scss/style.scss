@@ -1,3 +1,6 @@
+$primaryColor: #53F;
+$secondaryColor: #FFC;
+$tertiaryColor: #FBB;
 body {
   font-family: Verdana;
   font-size: 1.5em;
@@ -5,6 +8,9 @@ body {
 
 #team-members {
   clear: both;
+  text-align: center;
+  font-size: 0.8em;
+  color: $primaryColor;
 }
 
 #team-members .member {
@@ -21,10 +27,19 @@ body {
 
 #team-members .member div.name {
   text-align: center;
+  color: white;
+  border-style: solid;
+  border-width: 1px;
+  border-color: red;
+  background-color: $tertiaryColor;
+  border-radius: 8px;
 }
-$primaryColor: #FF0000;
+
 body {
   h1 {
     color: $primaryColor;
+    margin: 0 auto;
+    text-align: center;
+
   }
 }

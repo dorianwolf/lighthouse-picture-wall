@@ -3,7 +3,10 @@ body {
   font-size: 1.5em; }
 
 #team-members {
-  clear: both; }
+  clear: both;
+  text-align: center;
+  font-size: 0.8em;
+  color: #53F; }
 
 #team-members .member {
   float: left;
@@ -16,9 +19,17 @@ body {
   height: 200px; }
 
 #team-members .member div.name {
-  text-align: center; }
+  text-align: center;
+  color: white;
+  border-style: solid;
+  border-width: 1px;
+  border-color: red;
+  background-color: #FBB;
+  border-radius: 8px; }
 
 body h1 {
-  color: #FF0000; }
+  color: #53F;
+  margin: 0 auto;
+  text-align: center; }
 
 /*# sourceMappingURL=style.css.map */
